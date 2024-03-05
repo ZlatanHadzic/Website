@@ -25,10 +25,13 @@
     <p> <i class="fas fa-map"></i> Ferde Hauptmana 18 </p>
     <p> <i class="fas fa-envelope"></i><a href="mailto:info@access.ba">info@access.ba</a> </p>
         <p> <i class="fas fa-phone"></i><a href="tel:033945250">033/945-250</a> </p>
-      <div class="language-buttons">
-        <a href="#" id="bs">BOS</a>
-        <a href="#" id="en">ENG</a>
-     </div>
+        <div class="language-buttons">
+         <a href="#" id="bs" ><img src="bosnaaa.png" ></a>
+      
+       </div>
+       <div class="language-buttons1">
+         <a href="#" id="en" ><img src="united.png" ></a>
+       </div>
    </div>
 
    <nav class="navbar">
@@ -38,11 +41,11 @@
       <div class="links">
          <a href="#home" data-translate="home-link">home</a>
          <a href="about.html" data-translate="about-link">O nama</a>
-         <a href="#services" data-translate="service-link">Usluge</a>
+         <a href="service.html" data-translate="service-link">Usluge</a>
          
         
         
-         <a href="#contact" data-translate="contact-link">Kontakt</a>
+         <a href="contact.html" data-translate="contact-link">Kontakt</a>
       </div>
       <div id="menu-btn" class="fa fa-bars"></div>
       
@@ -59,7 +62,7 @@
    <div class="content">
       <h3 data-translate="home-heading">Zašto trošiti vrijeme?Prepustite to profesionalcima!</h3>
       <p data-translate="home-content" >Sa više od 15 godina iskustva, u mogućnosti smo da izađemo u susret najkompleksnijim zahtjevima, kako malih tako i velikih klijenata. Kontinuiranom edukacijom naših uposlenika ostajemo u mogućnosti da pratimo trendove u ICT svijetu, te da izađemo u susret najnovijim izazovima.</p>
-      <a href="#about" class="btn" data-translate="home-btn">Saznaj Više </a>
+      <a href="about.html" class="btn" data-translate="home-btn">Saznaj Više </a>
    </div>
 
 </section>
@@ -118,24 +121,22 @@
 
 <div class="testic">
    <div class="left-content">
-     <h2>Poslovna rješenja</br> po mjeri klijenta!</h2>
+     <h2 data-translate="testic">Poslovna rješenja</br> po mjeri klijenta!</h2>
      
    </div>
 
    <div class="right-content">
-     <a href="#" class="cta-button">Kontaktirajte nas</a>
+     <a href="#" class="cta-button" data-translate="right-content">Kontaktirajte nas</a>
    </div>
  </div>
 
 
-<div class="slika">
-<img src="cybersecurity1.svg" class="center">
-</div>
+
 
 
 <section class="contact" id="contact">
 
-   <h1 class="heading " data-translate="contact-heading" > <span>Kontaktirajte</span> nas </h1>
+   <h1 class="heading " data-translate="contact-heading" > Kontakt</h1>
 
    <div class="row">
 
@@ -152,7 +153,7 @@
             <input type="text" name="subject" placeholder="subject">
         </div>
         <textarea name="message" placeholder="message" cols="30" rows="10" required></textarea>
-        <input type="submit" value="send message" class="btn">
+        <input type="submit" value="send message" style="background-color: red; color:black; font-weight: bold;" class="btn">
     </form>
 
    </div>
@@ -161,36 +162,54 @@
 
 
 
-<section class="footer" class="hidden">
+<footer>
+   <div class="container">
+       <div class="row">
+             <div class="col" id="company">
+                 
+                 <p data-translate="company">
+                  Access Solutions je obrtničko društvo koje se bavi pružanjem usluga</br> iz domena savjetovanja i implementacije rješenja iz domena sistemskih</br> i mrežnih integracija, cybersecurity rješenja, kao i unified communication</br> and collaboration sistema. Pored toga, bavimo se i projektovanjem </br>infrastrukturnih rješenja, te optimizacijom postojećih IT sistema, </br>uz greenfield i brownfield implementacije.
+                 </p>
+                
+             </div>
 
-    <div class="box-container">
 
-        <div class="box">
-           <h3 data-translate="quick-links">Quick links</h3>
-           <a class="link" href="#home" data-translate="home"> <i class="fas fa-angle-right"></i> home</a>
-           <a class="link" href="#about" data-translate="about"> <i class="fas fa-angle-right"></i> O nama</a>
-           <a class="link" href="#services" data-translate="services"> <i class="fas fa-angle-right"></i> Usluge</a>
-           <a class="link" href="#contact" data-translate="contact"> <i class="fas fa-angle-right"></i> Kontakt</a>
-        </div>
-  
-        
-  
-        <div class="box">
-           <h3 data-translate="contact-info">Kontakt informacije</h3>
-           <a href="tel:033945250" class="link"> <i class="fas fa-phone"></i> 033/945-250 </a>
-           <a href="mailto:info@access.ba" class="link"> <i class="fas fa-envelope"></i> info@access.ba </a>
-           <a href="#" class="link"> <i class="fas fa-map"></i> Ferde Hauptmana 18 </a>
-        </div>
-  
-     </div>
-  
+             
 
-      
+             <div class="col" id="useful-links">
+                <h3 data-translate="linkovi">Linkovi</h3>
+                <div class="links">
+                   <a href="about.html" data-translate="futer1">O nama</a>
+                   <a href="service.html" data-translate="futer2">Usluge</a>
+                   <a href="contact.html" data-translate="futer3">Kontakt</a>
+                   <a href="mailto:info@access.ba" data-translate="futer4">Pomoć</a>
+                </div>
+             </div>
+
+             <div class="col" id="contact">
+                 <h3 data-translate="futer5">Kontact</h3>
+                 <div class="contact-details">
+                    <i class="fa fa-location"></i>
+                    <p>Ferde Hauptmana 18, <br> Sarajevo, Bosna i Hercegovina</p>
+                 </div>
+                 <div class="contact-details">
+                    <i class="fa fa-phone"></i>
+                    <p>033945250</p>
+                 </div>
+             </div>
+       </div>
+
+       <div class="row">
+             <div class="form">
+               <form action="https://formspree.io/f/xnqkdkor" method="POST">
+                   <input type="text" placeholder="Email here...">
+                   <button><i class="fa fa-paper-plane"></i></button>
+               </form>
+             </div>
+       </div>
+
    </div>
-
-   <div class="credit" data-translate="kredit"> created by <span >ZH-Media</span> | all rights reserved! </div>
-
-</section>
+</footer>
 
 
 
