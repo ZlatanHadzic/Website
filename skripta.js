@@ -93,7 +93,7 @@ enButton.addEventListener('click', () => {
 
 
 let menu = document.querySelector('#menu-btn');
-let navbarLinks = document.querySelector('.header .navbar .links');
+let navbarLinks = document.querySelector('.header .navbar .links .language-buttons .language-buttons1');
 
 menu.onclick = () =>{
    menu.classList.toggle('fa-times');
