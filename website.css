@@ -189,17 +189,7 @@ section {
   width: 10px;
   max-height: 30px;
 }
-@media only screen and (max-width: 600px) {
-  .language-buttons,
-  .language-buttons1 {
-    flex-direction: column; /* Postavi na stupac na manjim ekranima */
-    margin: 0; /* Resetiraj margine */
-  }
 
-  .language-buttons1 {
-    margin-top: 10px; /* Dodaj malo razmaka između dviju grupa na manjim ekranima */
-  }
-}
 .home {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -777,9 +767,17 @@ footer{
     margin: 2.5rem 2rem;
     font-size: 2.5rem;
   }
-  .language-buttons {
-    display: flex;
-   
+  
+    .language-buttons,
+  .language-buttons1 {
+    flex-direction: column; /* Postavi na stupac na manjim ekranima */
+    margin: 0; /* Resetiraj margine */
+  }
+
+  .language-buttons1 {
+    margin-top: 10px; /* Dodaj malo razmaka između dviju grupa na manjim ekranima */
+  }
+}
   }
 }
 
