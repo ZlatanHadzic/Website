@@ -49,7 +49,9 @@ const translations = {
     "futer3": "Kontakt",
     "futer4": "Pomoć",
     "linkovi": "Linkovi",
-    "futer5": "Kontakt"
+    "futer5": "Kontakt",
+        "testic": "Poslovna rješenja po mjeri klijenta!",
+"right-content": "Kontaktirajte nas"
     },
     en: {
        "home-heading": "Why Waste Time? Leave It to Professionals!",
@@ -101,7 +103,9 @@ const translations = {
     "futer3": "Contact",
     "futer4": "Help",
     "linkovi": "Links",
-    "futer5": "Contact"
+    "futer5": "Contact",
+        "testic": "Tailor-made business solutions!",
+"right-content": "Contact us",
       
     }
  };
