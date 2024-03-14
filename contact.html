@@ -14,70 +14,8 @@
     <link rel="icon" type="image/png" href="access solutions 1.png">
    
    <link rel="stylesheet" href="website.css" />
-   <style>
-    body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        background-color: #f4f4f4;
-    }
+   
 
-    .contact-container {
-        display: flex;
-        max-width: 800px;
-        margin: 50px auto;
-        background-color: #fff;
-        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-    }
-
-    .contact-info {
-        flex: 1;
-        padding: 20px;
-        background-color: #3498db;
-        color: #fff;
-    }
-
-    .contact-info h2 {
-        margin-bottom: 20px;
-        border-bottom: 2px solid #297fb8;
-        padding-bottom: 10px;
-    }
-
-    .contact-info p {
-        margin: 10px 0;
-    }
-
-    .contact-form {
-        flex: 1;
-        padding: 20px;
-    }
-
-    form {
-        max-width: 400px;
-        margin: 0 auto;
-    }
-
-    form input,
-    form textarea {
-        width: 100%;
-        margin-bottom: 15px;
-        padding: 10px;
-        box-sizing: border-box;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-    }
-
-    form .btn {
-        background-color: #3498db;
-        color: #fff;
-        border: none;
-        padding: 10px 15px;
-        cursor: pointer;
-        border-radius: 4px;
-    }
-</style>
 </head>
 <header class="header">
        
@@ -110,80 +48,32 @@
     </nav>
  
  </header>
- <div class="about-container">
-   
-    <section class="location">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.1959530273793!2d18.374270175452008!3d43.85176703956657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c91350fd8457%3A0x7122bbc49c260e6f!2sFerde%20Hauptmana%2018%2C%20Sarajevo%2071000!5e0!3m2!1shr!2sba!4v1708810103390!5m2!1shr!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </section>
-    <div class="contact-container">
+ <section class="contact" id="contact">
 
-        <div class="contact-info">
-            <h2 data-translate="contact-infor">Kontakt informacije</h2>
-            <p>Adresa: Ferde Hauptmana 18, Sarajevo 71000</p>
-            <p>Broj: 033/945-250</p>
-            <!-- Add other contact information as needed -->
-        </div>
-
-        <div class="contact-form">
-            <h2>Contact Us</h2>
-            <form action="https://formspree.io/f/xnqkdkor" method="POST">
-                <input type="text" name="name" placeholder="Name" required>
-                <input type="email" name="email" placeholder="Email" required>
-                <input type="tel" name="phone" placeholder="Phone">
-                <input type="text" name="subject" placeholder="Subject">
-                <textarea name="message" placeholder="Message" cols="30" rows="10" required></textarea>
-                <input type="submit" value="Send Message" class="btn">
-            </form>
-        </div>
-
+    <h1 class="heading " data-translate="contact-heading" > <span>Kontaktirajte</span> nas </h1>
+ 
+    <div class="row">
+ 
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2877.195953027342!2d18.374270175050572!3d43.8517670395672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c91350fd8457%3A0x7122bbc49c260e6f!2sFerde%20Hauptmana%2018%2C%20Sarajevo%2071000!5e0!3m2!1sbs!2sba!4v1692819516181!5m2!1sbs!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+ 
+     <form action="https://formspree.io/f/xnqkdkor" method="POST">
+         <h3 data-translate="contact-content" class="hidden"> kontaktirajte nas</h3>
+         <div class="inputBox">
+             <input type="text" name="name" placeholder="name" required>
+             <input type="email" name="email" placeholder="email" required>
+         </div>
+         <div class="inputBox">
+             <input type="tel" name="phone" placeholder="phone">
+             <input type="text" name="subject" placeholder="subject">
+         </div>
+         <textarea name="message" placeholder="message" cols="30" rows="10" required></textarea>
+         <input type="submit" value="send message" class="btn">
+     </form>
+ 
     </div>
-    <footer>
-        <div class="container">
-            <div class="row">
-                  <div class="col" id="company">
-                      
-                      <p>
-                       Access Solutions je obrtničko društvo koje se bavi pružanjem usluga</br> iz domena savjetovanja i implementacije rješenja iz domena sistemskih</br> i mrežnih integracija, cybersecurity rješenja, kao i unified communication</br> and collaboration sistema. Pored toga, bavimo se i projektovanjem </br>infrastrukturnih rješenja, te optimizacijom postojećih IT sistema, </br>uz greenfield i brownfield implementacije.
-                      </p>
-                     
-                  </div>
-     
-     
-                  
-     
-                  <div class="col" id="useful-links">
-                     <h3>Links</h3>
-                     <div class="links">
-                        <a href="about.html">About</a>
-                        <a href="service.html">Services</a>
-                        <a href="contact.html">Contact</a>
-                        <a href="mailto:info@access.ba">Help</a>
-                     </div>
-                  </div>
-     
-                  <div class="col" id="contact">
-                      <h3>Kontakt</h3>
-                      <div class="contact-details">
-                         <i class="fa fa-location"></i>
-                         <p>Ferde Hauptmana 18, <br> Sarajevo, Bosna i Hercegovina</p>
-                      </div>
-                      <div class="contact-details">
-                         <i class="fa fa-phone"></i>
-                         <p>033945250</p>
-                      </div>
-                  </div>
-            </div>
-     
-            <div class="row">
-                  <div class="form">
-                    <form action="https://formspree.io/f/xnqkdkor" method="POST">
-                        <input type="text" placeholder="Email here...">
-                        <button><i class="fa fa-paper-plane"></i></button>
-                    </form>
-                  </div>
-            </div>
-     
-        </div>
+ 
+ </section>
+ 
      </footer>
 
      <script src="skripta.js"></script>
